@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "paths": {
+      "@repo/ui/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
